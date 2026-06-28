@@ -1,0 +1,95 @@
+/* ===============================
+   NeuralRetail AI - Premium Theme
+   =============================== */
+
+/* Background */
+.stApp {
+    background: #F4F7FC;
+}
+
+/* Main container */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0F172A, #1E3A5F);
+    border-right: 2px solid #334155;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* Headings */
+h1 {
+    color: #0F172A;
+    font-size: 42px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.5px;
+}
+
+h2, h3 {
+    color: #1E3A5F;
+}
+
+/* KPI Cards */
+div[data-testid="metric-container"] {
+    background: white;
+    border-radius: 18px;
+    padding: 18px;
+    border-left: 6px solid #22C55E;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+    transition: all 0.25s ease;
+}
+
+div[data-testid="metric-container"]:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.14);
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    background: #2563EB;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    background: #1D4ED8;
+}
+
+/* Tables */
+[data-testid="stDataFrame"] {
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #E2E8F0;
+}
+
+/* Plotly charts */
+.js-plotly-plot {
+    background: white;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Alerts */
+.stAlert {
+    border-radius: 14px;
+    border-left: 6px solid #22C55E;
+}
+
+/* Divider spacing */
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

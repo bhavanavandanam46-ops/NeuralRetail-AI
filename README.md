@@ -1,183 +1,118 @@
 # 🛍️ NeuralRetail AI
 
-An AI-powered Retail Business Intelligence Dashboard built using Machine Learning and Streamlit.
+AI-Powered Retail Business Intelligence Dashboard built using Python, Streamlit, Machine Learning, and Plotly.
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
-NeuralRetail AI helps retailers analyze customer behavior, forecast sales, predict customer churn, monitor inventory, and generate AI-based business insights from retail transaction data.
-
-The project transforms raw retail data into meaningful visual dashboards for better business decision-making.
+NeuralRetail AI helps retail businesses make smarter decisions by analyzing sales data, customer behavior, inventory, and future demand using Artificial Intelligence and Machine Learning.
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 
 - 📊 Executive Dashboard
-- 📈 Demand Forecasting
 - 👥 Customer Segmentation
+- 📈 Demand Forecasting
 - ⚠️ Customer Churn Prediction
 - 📦 Inventory Analysis
 - 🤖 AI Business Insights
+- 📉 Interactive Charts & Graphs
+- 🎨 Modern Streamlit UI
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - Python
 - Streamlit
 - Pandas
-- NumPy
-- Scikit-learn
-- Plotly Express
-- Matplotlib
+- Plotly
+- Scikit-Learn
+- Machine Learning
+- Git & GitHub
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```
-NeuralRetail_AI/
-
-│── app/
-│   ├── app.py
+NeuralRetail-AI/
+│
+├── app/
+│   ├── pages/
 │   ├── assets/
-│   └── pages/
-
-│── data/
-
-│── models/
-
-│── reports/
-
-│── src/
-
-│── notebooks/
-
-│── requirements.txt
-
-│── README.md
+│   └── app.py
+│
+├── data/
+├── models/
+├── reports/
+├── src/
+├── notebooks/
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-# 📊 Dashboard Modules
+## 📸 Screenshots
 
-## Executive Dashboard
+### 🏠 Home Page
+(Add screenshot here)
 
-- Revenue KPIs
-- Customer KPIs
-- Monthly Sales Trend
-- Top Products
-- Country-wise Sales
+### 📊 Executive Dashboard
+(Add screenshot here)
 
----
+### 👥 Customer Segmentation
+(Add screenshot here)
 
-## Demand Forecasting
+### 📈 Demand Forecasting
+(Add screenshot here)
 
-- Monthly Sales Analysis
-- Sales Trend
-- Forecast Summary
+### ⚠️ Customer Churn Prediction
+(Add screenshot here)
 
----
+### 📦 Inventory Analysis
+(Add screenshot here)
 
-## Customer Segmentation
-
-- RFM Analysis
-- Customer Clusters
-- Scatter Plot
-- Distribution Chart
+### 🤖 AI Insights
+(Add screenshot here)
 
 ---
 
-## Customer Churn
-
-- Churn Prediction
-- Customer Risk Analysis
-- Churn Distribution
-
----
-
-## Inventory Analysis
-
-- Product Performance
-- Inventory Summary
-- Top Selling Products
-
----
-
-## AI Insights
-
-- Country-wise Sales
-- AI Recommendations
-- Business Insights
-
----
-
-# 📈 Machine Learning Models
-
-- K-Means Clustering
-- Random Forest Classifier
-
----
-
-# 📸 Screenshots
-
-(Add screenshots of each dashboard page here.)
-
----
-
-# ▶️ Installation
-
-Clone the repository
+## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/NeuralRetail-AI.git
-```
+git clone https://github.com/bhavanavandanam46-ops/NeuralRetail-AI.git
 
-Go to the project
-
-```bash
 cd NeuralRetail-AI
-```
 
-Install dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
-Run the application
-
-```bash
 streamlit run app/app.py
 ```
 
 ---
 
-# 🎯 Future Enhancements
+## 📈 Future Enhancements
 
-- Real-time data integration
-- Sales prediction using Deep Learning
-- Chatbot Assistant
+- Real-time Sales Prediction
 - Cloud Deployment
-- Power BI Integration
+- Deep Learning Models
+- AI Chat Assistant
+- Sales Recommendation Engine
 
 ---
 
-# 👩‍💻 Developer
+## 👩‍💻 Developer
 
 **Bhavana Vandanam**
 
 B.Tech CSE
 
-NeuralRetail AI Internship Project
-
 2026
 
 ---
 
-# ⭐ Thank You
-
-If you like this project, please consider giving it a ⭐ on GitHub.
+⭐ If you like this project, consider giving it a star on GitHub.

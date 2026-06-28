@@ -59,23 +59,27 @@ NeuralRetail-AI/
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-C:\Users\bhava\OneDrive\Documents\NeuralRetail_Backup_29June\app\images
+![Home](images/homepage.png)
+
+
+### 📊 Executive Dashboard
+![Dashboard](images/dashboard.png)
 
 
 ### 👥 Customer Segmentation
-C:\Users\bhava\OneDrive\Documents\NeuralRetail_Backup_29June\app\images
+![Segmentation](images/segmentation.png)
 
 ### 📈 Demand Forecasting
-C:\Users\bhava\OneDrive\Documents\NeuralRetail_Backup_29June\app\images
+![Forecasting](images/forecasting.png)
 
 ### ⚠️ Customer Churn Prediction
-C:\Users\bhava\OneDrive\Documents\NeuralRetail_Backup_29June\app\images
+![Churn](images/churn.png)
 
 ### 📦 Inventory Analysis
-C:\Users\bhava\OneDrive\Documents\NeuralRetail_Backup_29June\app\images
+![Inventory](images/inventory.png)
 
 ### 🤖 AI Insights
-C:\Users\bhava\OneDrive\Documents\NeuralRetail_Backup_29June\app\images
+![Insights](images/insights.png)
 
 ---
 

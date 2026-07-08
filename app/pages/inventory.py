@@ -28,9 +28,10 @@ st.subheader("Product Inventory & Stock Performance")
 # Load Data
 # -----------------------------
 try:
-    df = pd.read_csv("../data/clean_retail_data.csv")
-except:
-    st.error("clean_retail_data.csv not found!")
+    data_path = Path(__file__).parent.parent.parent / "data" / "clean_retail_data.csv"
+    df = pd.read_csv(data_path)
+except Exception as e:
+    st.error(f"Dataset not found!\n{e}")
     st.stop()
 
 # -----------------------------

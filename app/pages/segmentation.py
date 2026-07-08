@@ -23,7 +23,8 @@ st.title("👥 Customer Segmentation")
 st.markdown("### Analyze Customer Groups using RFM Metrics")
 
 try:
-    df = pd.read_csv("../reports/customer_segments.csv")
+    report_path = Path(__file__).parent.parent.parent / "reports" / "customer_segments.csv"
+    df = pd.read_csv(report_path)
 except:
     st.error("Customer segmentation report not found!")
     st.stop()

@@ -25,9 +25,10 @@ st.subheader("AI Generated Retail Business Recommendations")
 # Load Dataset
 # -----------------------
 try:
-    df = pd.read_csv("../data/clean_retail_data.csv")
-except:
-    st.error("Dataset not found!")
+    data_path = Path(__file__).parent.parent.parent / "data" / "clean_retail_data.csv"
+    df = pd.read_csv(data_path)
+except Exception as e:
+    st.error(f"Dataset not found!\n{e}")
     st.stop()
 
 # -----------------------
